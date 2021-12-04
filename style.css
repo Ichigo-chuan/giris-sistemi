@@ -1,0 +1,55 @@
+body{
+  background-color: #6E7194;
+}
+.kutu{
+  padding: 40px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #42445A;
+  text-align: center;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+  width: 300px;
+  color: whitesmoke;
+  text-align: center
+}
+input[type="text"], input[type="password"]{
+  border: 0;
+  color: ghostwhite;
+  width: 250px;
+  margin: 20px auto;
+  border-radius: 24px;
+  background: url(lines.gif);
+  border: 2px solid #D82ACB;
+  padding: 14px 10px;
+  transition: 0.25s;
+}
+input[type = "text"], input[type="password"]{
+  text-align: center;
+}
+h1{
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+}
+*{
+  outline: none;
+}
+input[type="submit"]{
+  border: 0;
+  color: ghostwhite;
+  width: 100px;
+  margin: 20px auto;
+  border-radius: 24px;
+  background: url(lines.gif);
+  border: 2px solid #D82ACB;
+  padding: 14px 10px;
+  transition: 0.25s;
+}
+input[type="submit"]:hover{
+  color: #D82ACB;
+}
